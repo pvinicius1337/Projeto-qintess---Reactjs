@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "id": "0ef5",
+      "name": "Nova rede de internet",
+      "budget": "15000",
+      "category": {
+        "id": "1",
+        "name": "Infraestrutura"
+      },
+      "cost": 2020,
+      "services": [
+        {
+          "name": "Buscar empresas de rede e internet",
+          "cost": "2000",
+          "description": "Pesquisar e contratar um serviço de rede e internet",
+          "id": "f4ca5e6b-3ee4-4904-a1d7-a81799a1ff15"
+        }
+      ]
+    },
+    {
+      "id": "e318",
+      "name": "Sistema de controle de equipamento",
+      "budget": "50.000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 37,
+      "services": [
+        {
+          "name": "Modelagem de dados",
+          "cost": "15.000",
+          "description": "Modelagem de dados do sistema de controle de equipamento",
+          "id": "d29fed5d-db04-4378-89bb-623da6319195"
+        },
+        {
+          "name": "teste 2",
+          "cost": "22",
+          "description": "asdada",
+          "id": "68bc642b-09cb-432e-b2c1-ddc9177357fc"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infraestrutura"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
+}
