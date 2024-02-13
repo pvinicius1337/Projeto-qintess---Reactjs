@@ -110,16 +110,16 @@ function Project() {
         projectUpdated.cost = parseFloat(projectUpdated.cost) -parseFloat(cost)
 
         fetch(`http://localhost:5000/projects/${projectUpdated.id}`,{
-            method: "PATH",
+            method: "PATCH",
             headers: {
-                'Content Type': 'application/json'
+                'Content-Type': 'application/json'
             },
             body: JSON.stringify(projectUpdated)
         }).then((resp)=> resp.json())
           .then((data) =>{
             setProject(projectUpdated)
             setServices(servicesUpdated)
-            setMessage("Serviço excluido com sucesso!")
+            setMessage("Serviço removido com sucesso!")
           }).catch((err) => console.log(err))
     }
     function toggleProjectForm() {

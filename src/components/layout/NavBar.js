@@ -23,11 +23,6 @@ function NavBar() {
                     <li className = {styles.item}>
                         <Link to="https://qintess.com/" target='_blank'>Empresa</Link>
                     </li>
-
-                    <li className = {styles.item}>
-                         <Link to="/contact">Contato</Link>
-                    </li>
-
                 </ul>
             </Container>
         </nav>
